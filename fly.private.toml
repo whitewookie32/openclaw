@@ -23,7 +23,7 @@ destination = "/data"
 source = "openclaw_data"
 
 [processes]
-app = "node dist/index.js gateway --allow-unconfigured --port 3000 --bind 0.0.0.0"
+app = "node dist/index.js gateway --allow-unconfigured --port 3000 --bind lan"
 
 [[vm]]
 memory = "2048mb"
